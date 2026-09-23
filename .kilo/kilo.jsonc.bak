@@ -1,0 +1,21 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "snapshot": false,
+  "permission": {
+    "edit": {
+      "AGENTS.md": "allow"
+    }
+  },
+  "provider": {
+    "deepseek": {
+      "models": {
+        "deepseek-v4-pro": {
+          "limit": {
+            "context": 131072,
+            "output": 32000
+          }
+        }
+      }
+    }
+  }
+}

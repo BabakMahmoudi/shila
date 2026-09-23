@@ -1,0 +1,22 @@
+shila is a personal assistant that uses LLMs. It will be designed to be used by Persian speaking users.
+It will provide different features to help a user in his daily activities. But it starts and focus
+will be as a personal accountant. Users will tell it about their expenses and it will try to record
+these expenses to help the user for managing his daily costs. For instance a user may say 
+"I pais 120 KT to Hassan", shila will try to obtain necessary data to record this payment and will
+keep the user costs. One major area is in dault purchases, user says what he has bought and shila keep financial records.
+These are what we know or plan:
+1. shila can record financial transactions, specially daily purchases.
+2. shila gathers informations about prices, it can generate warnings about expenses and bad purchases.
+3. shila can analyze pictures, for example user sends a picture and say I paid 300 KT for this.
+4. shila uses voice. users will send voices. In later versions we may switch to Real Time voice.
+5. shila will use price informations from users transactions that may be used to answer questions about prices.
+6. shila gathers historical data of prices, it can measure inflations.
+7. shila can review users Text Messages to read messages from Banks to reconciliate payments.
+8. in future shila may provide payment methos so that users do their payments within the app.
+
+Fo architecture we know:
+1. It will be deployed to cloudflare.
+2. It will use cloudflare agent memory to stire  conversations and users contextual information.
+3. It will use cloudflare D1 to store financial transactions.
+4. It will use google authentication.
+4. The UI is bacsically a chat bot ai, much like that of chatgpt.
