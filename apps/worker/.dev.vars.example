@@ -1,4 +1,0 @@
-# Copy to `.dev.vars` for local `wrangler dev`. Never commit `.dev.vars`.
-SHILA_MODEL_PROVIDER=deepseek
-DEEPSEEK_API_KEY=sk-your-deepseek-key
-OPENAI_API_KEY=
