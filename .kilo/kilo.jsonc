@@ -2,8 +2,15 @@
   "$schema": "https://app.kilo.ai/config.json",
   "snapshot": false,
   "permission": {
+    "bash": {
+      "git": "allow",
+      "git *": "allow"
+    },
     "edit": {
-      "AGENTS.md": "allow"
+      "AGENTS.md": "allow",
+      "REQUIREMENTS.md": "allow",
+      "ARCHITECTURE.MD": "allow",
+      "ARCHITECTURE.md": "allow"
     }
   }
 }
